@@ -29,7 +29,7 @@ const SOURCES = [
   {
     id: "fr", name: "Chaînes FR", lang: "fr",
     urls: list(process.env.FR_PLAYLISTS, [
-      "https://iptv-org.github.io/iptv/languages/fra.m3u",
+     // "https://iptv-org.github.io/iptv/languages/fra.m3u",
       "https://catch-up-tv-and-more.github.io/repo/",
       "https://iptv-org.github.io/iptv/countries/fr.m3u"
     ])
