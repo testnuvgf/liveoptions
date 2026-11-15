@@ -31,7 +31,7 @@ const SOURCES = [
     urls: list(process.env.FR_PLAYLISTS, [
      // "https://iptv-org.github.io/iptv/languages/fra.m3u",
       "https://catch-up-tv-and-more.github.io/repo/",
-      "https://iptv-org.github.io/iptv/countries/fr.m3u"
+      //"https://iptv-org.github.io/iptv/countries/fr.m3u"
     ])
   },
   { id: "ar", name: "قنوات عربية", lang: "ar", urls: list(process.env.AR_PLAYLISTS, ["https://iptv-org.github.io/iptv/languages/ara.m3u"]) },
