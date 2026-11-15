@@ -30,7 +30,11 @@ const SOURCES = [
     id: "fr", name: "Chaînes FR", lang: "fr",
     urls: list(process.env.FR_PLAYLISTS, [
    //  "https://iptv-org.github.io/iptv/languages/fra.m3u",
-   "https://romaxa55.github.io/world_ip_tv/output/index.m3u"
+       "https://www.apsattv.com/distro.m3u",
+     " https://www.apsattv.com/vizio.m3u",
+     " https://www.apsattv.com/vidaa.m3u",
+      "https://www.apsattv.com/orka.m3u",
+    "  https://www.apsattv.com/galxytv.m3u"
     
      // "https://iptv-org.github.io/iptv/countries/fr.m3u"
     ])
