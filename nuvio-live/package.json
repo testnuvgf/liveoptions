@@ -1,0 +1,8 @@
+{
+  "name": "nuvio-live-tv-fr-ar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stremio/Nuvio live TV addon: French and Arabic channels from M3U playlists",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
