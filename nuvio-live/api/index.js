@@ -29,10 +29,10 @@ const SOURCES = [
   {
     id: "fr", name: "Chaînes FR", lang: "fr",
     urls: list(process.env.FR_PLAYLISTS, [
-     // "https://iptv-org.github.io/iptv/languages/fra.m3u",
+     "https://iptv-org.github.io/iptv/languages/fra.m3u",
    
-     " https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
-      //"https://iptv-org.github.io/iptv/countries/fr.m3u"
+    
+      "https://iptv-org.github.io/iptv/countries/fr.m3u"
     ])
   },
   { id: "ar", name: "قنوات عربية", lang: "ar", urls: list(process.env.AR_PLAYLISTS, ["https://iptv-org.github.io/iptv/languages/ara.m3u"]) },
